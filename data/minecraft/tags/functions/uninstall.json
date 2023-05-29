@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "mdlt:private/handler/uninstall"
+    ]
+}
