@@ -2,6 +2,11 @@
 
 It uses two wrenches to place a model in a given position. The main wrench is the carrot on a stick and the secondary wrench is the warped fungus on a stick. 
 
+To obtain the wrenchs, use:
+```hs
+/function mdlt:commands/give
+```
+
 ## Main wrench
 
 ### Right click
