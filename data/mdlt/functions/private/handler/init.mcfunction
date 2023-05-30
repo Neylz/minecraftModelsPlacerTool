@@ -23,3 +23,9 @@ scoreboard players reset * mdlt.click.warped
 # sneak detection
 scoreboard objectives add mdlt.sneak minecraft.custom:minecraft.sneak_time
 scoreboard players reset * mdlt.sneak
+
+
+# schedules
+scoreboard objectives add mdlt.schedules.glow dummy
+scoreboard players reset * mdlt.schedules.glow
+scoreboard players set .t mdlt.schedules.glow 0
