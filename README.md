@@ -25,7 +25,7 @@ Same cycle as above but in the opposite direction.
 
 ## Secondary wrench
 
-The secondary wrench is used in conjunction with the main wrench. It is used to: confirm or have a specific action in the current mode.
+The secondary wrench is used in conjunction with the main wrench. It is used to: confirm or has a specific action in the current mode.
 
 Move, rotate and delete actions concern a selected model within a radius of less than 32 blocks. The selection is done by selecting the Selection mode with the main wrench and then select the model by right clicking looking at it.
 

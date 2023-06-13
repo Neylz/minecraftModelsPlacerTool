@@ -23,4 +23,4 @@ function mdlt:private/editor/select/syncid
 function mdlt:private/models/visuals/temp_glow
 
 # tellraw
-tellraw @a[tag=temp_player] [{"text": "[","color": "dark_gray"},{"text": "MDLT", "color": "#0393fd"},{"text": "] "},{"text": "Model summoned ","color": "green"},{"text": "(id:"},{"score":{"name":"@s","objective":"mdlt.model.id"}},{"text":"). "},{"text":"This model have been automatically selected.", "color": "yellow"}]
+tellraw @a[tag=temp_player] [{"text": "[","color": "dark_gray"},{"text": "MDLT", "color": "#0393fd"},{"text": "] "},{"text": "Model summoned ","color": "green"},{"text": "(id:"},{"score":{"name":"@s","objective":"mdlt.model.id"}},{"text":"). "},{"text":"This model has been automatically selected.", "color": "yellow"}]
