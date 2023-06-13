@@ -1,6 +1,17 @@
 #> mdlt:private/ui/pages/main
 
+tellraw @s {"text": "\n\n\n\n\n\n\n\n"}
+tellraw @s [{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] "},{"text":"------------------"},{"text": " Editor Menu ","color": "#0393FD"},{"text":"------------------"}]
+# Give items
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"}]
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"},{"text": "Give: "},{"text": "[Wrenchs] ", "color": "green", "hoverEvent": {"action": "show_text", "contents": [{"text": "click to get the wrenchs"}]}, "clickEvent": {"action": "run_command", "value": "/trigger mdlt set -100504"}}]
+# Quick Wrench mode
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"}]
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"}, {"text": "Quick Wrench mode:"}]
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"}, {"text": "[Place New] ","color": "white","clickEvent": {"action": "run_command", "value": "/trigger mdlt set -80407"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to switch the mode\nof your wrench"}]}},{"text": "[Selection] ", "color": "green","clickEvent": {"action": "run_command", "value": "/trigger mdlt set -80408"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to switch the mode\nof your wrench"}]}},{"text": "[Move] ", "color": "aqua","clickEvent": {"action": "run_command", "value": "/trigger mdlt set -80409"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to switch the mode\nof your wrench"}]}},{"text": "[Rotate] ", "color": "light_purple","clickEvent": {"action": "run_command", "value": "/trigger mdlt set -80410"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to switch the mode\nof your wrench"}]}},{"text": "[Delete] ", "color": "red","clickEvent": {"action": "run_command", "value": "/trigger mdlt set -80411"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to switch the mode\nof your wrench"}]}}]
+# Precision interfaces
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"}]
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"},{"text": "Prcision interfaces:"}]
+tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] ", "color": "dark_gray"},{"text": "[Move] ", "color": "aqua","clickEvent": {"action": "run_command", "value": "/trigger mdlt set 2"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to open the precision interface"}]}},{"text": "[Rotate] ", "color": "light_purple","clickEvent": {"action": "run_command", "value": "/trigger mdlt set 3"},"hoverEvent": {"action": "show_text","contents": [{"text": "Click to open the precision interface"},{"text": "\nUnavailable yet","bold": true, "color": "red"}]}}]
 
-tellraw @s [{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] "},{"text":"------------------------------------"}]
-tellraw @s [{"text": "", "color": "gray"},{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] "},{"text": "Obtain the wrenchs :"}]
-
+tellraw @s [{"text":"[","color":"dark_gray"},{"text":"MDLT","color":"#0393FD"},{"text":"] "}]

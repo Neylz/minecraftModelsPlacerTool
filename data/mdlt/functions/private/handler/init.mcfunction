@@ -5,6 +5,13 @@
 # main data
 scoreboard objectives add mdlt.data dummy
 
+# constants
+scoreboard objectives add mdlt.const dummy
+scoreboard players set #-1 mdlt.const -1
+scoreboard players set #10 mdlt.const 10
+scoreboard players set #100 mdlt.const 100
+scoreboard players set #1000 mdlt.const 1000
+
 # player data
 scoreboard objectives add mdlt.player.dataversion dummy
 
@@ -29,3 +36,12 @@ scoreboard players reset * mdlt.sneak
 scoreboard objectives add mdlt.schedules.glow dummy
 scoreboard players reset * mdlt.schedules.glow
 scoreboard players set .t mdlt.schedules.glow 0
+
+
+# Player UI
+
+scoreboard objectives add mdlt trigger
+scoreboard objectives add mdlt.input trigger
+
+scoreboard objectives add mdlt.ui.page dummy
+scoreboard objectives add mdlt.ui.input dummy

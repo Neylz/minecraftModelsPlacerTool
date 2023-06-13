@@ -13,3 +13,15 @@ Main wrench cycle values (`mdlt.player.cycle`)
 | 4 | Delete |
 
 
+# UI pages
+
+
+## pages value
+
+| Page | Name | Description |
+| ---- | ---- | ----------- |
+| 0 | Main | Main menu |
+| 1 | Move | Move menu |
+| 2 | Rotate | Rotate menu |
+| 3 | Size (WIP) |  |
+
